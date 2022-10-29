@@ -1,0 +1,301 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(parrot.jpg);
+    background-size: cover;
+    perspective: 1000px;
+}    
+.card-back{
+        width: 100%;
+        max-width: 650px;
+        background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+        position: absolute;
+        padding: 28px;
+        margin: 0 28px;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: inset -2px 2px 2px red;
+}
+.card-front{
+    width: 100%;
+    max-width: 270px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: inset -2px 2px 2px red;
+    
+    
+}
+.login .textbox{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+   
+
+}
+.login ion-icon{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: -30px 0;
+}
+
+.rem{
+    font-size: 13px;
+    margin-left: 10px;
+    color: white;
+    padding: 20px 0;
+    
+}
+.login .textbox label{
+    padding-left: 25px;
+    width: 60%;
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.btn{ 
+      margin-top: 0px;
+}
+.btn input{
+    display: block;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    background: red;
+    border: none;
+     margin-left: 70px;
+     margin-bottom: 10px;
+    color:white;
+    font-weight: 900;
+    font-size: 16px;
+    border-radius: 18px;
+    transition: .4s ease;
+    text-align: center;
+}
+.btn input:hover{
+        background: white;
+        color: red
+    
+}
+.login .textbox{
+    display: flex;
+    width: 70%;
+    padding-bottom: 15px; 
+
+}
+
+.login .textbox input{
+    height: 40px;
+    width: 1000%;
+    outline: none;
+    padding: 0 10px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+}
+.login .textbox a{
+    width: 26px;
+    text-align: center;
+    position: absolute;
+    padding: 9px 8px;
+    left: 15px;
+
+}
+.card-front h2{
+    font-weight: 600;
+    color: white;
+    padding-bottom: 6px;
+    font-size: 26px;
+    text-align: center;
+    background: transparent;
+    text-shadow: 2px 2px 2px red;
+    border-bottom: solid 1px red;
+    
+
+}
+.card-back h2{
+        font-weight: 600;
+        color: white;
+        padding-bottom: 6px;
+        font-size: 26px;
+        text-align: center;
+        background: transparent;
+        text-shadow: 2px 2px 2px red;
+        border-bottom: solid 1px red;
+        
+    
+}
+.signup{
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.textbox a{
+        width: 26px;
+        text-align: center;
+        position: absolute;
+        padding: 9px 8px;
+        left: 15px;
+
+}
+.textbox input:nth-child(2n){
+    justify-content: end;
+}
+.textbox {
+    display: flex;
+    width: 70%;
+    padding-bottom: 15px; 
+}
+.textbox label{
+    padding-left: 25px;
+    width: 60%;
+    color: red;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.textbox input{
+    height: 40px;
+    width: 70%;
+    outline: none;
+    padding: 0 10px;
+    background: transparent;
+    font-size: 15px;
+    color: white;
+}    
+.gender-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+.gender-category{
+    margin: 15px 0;
+    color: red;
+}
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category input,
+.btnn{
+cursor: pointer;
+}
+.btnn{
+    margin-top: 40px;
+}
+.btnn input{
+     
+        width: 100px;
+        height: 40px;
+        padding: 10px;
+        background: red;
+        border: none;
+        margin-top: 10px;
+        margin-left: 250px;
+        color:white;
+        font-weight: 900;
+        font-size: 16px;
+        border-radius: 18px;
+        transition: .4s ease;
+        text-align: center;
+}
+.btnn input:hover{
+        background: white;
+        color: red
+}
+.Link{
+       display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        text-align: center;
+        color: aliceblue;
+}
+.signup .Liw{
+            text-align: center;
+        color: aliceblue;
+}
+.icons {
+    display: flex;
+    margin-left: 50px;
+    width: 90px;
+    margin-top: 20px;
+    height: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    transition: 0.5s ease;
+
+}
+.icons a{
+    text-decoration: none;
+        color: white;
+}
+.icons ion-icon:hover{
+    color: red;
+}    
+.icon a{
+        text-decoration: none;
+        color: white;
+        
+      
+}
+.Liw{
+    text-align: center;
+    color: aliceblue;
+}
+.Link a{
+    text-decoration: none;
+    color: red;
+}
+.textbox ion-icon{
+    color: white;
+
+}
+.icon ion-icon{
+    margin-left: 95px;
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        transition: 0.3s ease;
+}
+.icon ion-icon:hover{
+        color: red;
+} 
+@media(max-width: 600px){
+    .card-back,.card-front{
+        min-width: 280px;
+    }
+    .textbox input{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .textbox input:nth-child(2n){
+        justify-content: space-between;
+    }
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .signup::-webkit-scrollbar{
+       width: 0;
+    }
+}
